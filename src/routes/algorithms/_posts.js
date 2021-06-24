@@ -10,7 +10,7 @@
 const posts = [
 	{
 		title: 'k-Means',
-		slug: 'k-Means',
+		slug: 'k-Means-description',
 		html: `
 			<p>K-means es un algoritmo de clasificación no supervisada (clusterización). k-Means agrupa objetos en k grupos basándose en sus características.</p>
 
@@ -31,12 +31,30 @@ const posts = [
 			</ul>
 
 			<h2>El algoritmo k-Means se utiliza de manera recurrente cuando son desconocidos los antecedentes grupales, para así lograr identificar grupos de individuos</h2>
+
+			<a href="algorithms/k-Means" class="button-algorithms">Usar Algoritmo</a>
+
+			<style>
+			a.button-algorithms {
+				text-decoration: none;
+				background-color: #333;
+				padding: 2%;
+				color: white;
+				display: inherit;
+                text-align: center;
+				margin-top: 5%;
+			}
+
+			a.button-algorithms:hover {
+				background-color: rgb(255,62,0);
+			}
+            </style>
 		`
 	},
 
 	{
 		title: 'Coeficiente de silueta',
-		slug: 'Silhouette',
+		slug: 'Silhouette-description',
 		html: `
 			<p>El coeficiente de Silueta es una métrica para evaluar la calidad del agrupamiento obtenido con algoritmos de clustering. El objetivo de Silueta es identificar cuál es el número óptimo deagrupamientos.</p>
 			<p>El coeficiente de Silueta que contrasta la distancia media dentro del clúster (elementos del mismo grupo), con la distancia media entre clústeres (elementos de otros grupos).</p>
@@ -51,6 +69,76 @@ const posts = [
 			  <li><b>k(i)=0</b> la gran mayoria de puntos se encuentran entre dos grupos.</li>
 			  <li><b>k(i)=-1</b> agrupación mal asignada</li><br>
 			</ul>
+
+			<a href="algorithms/Silhouette" class="button-algorithms">Usar Algoritmo</a>
+
+			<style>
+			  a.button-algorithms {
+			  	text-decoration: none;
+			  	background-color: #333;
+			  	padding: 2%;
+			  	color: white;
+			  	display: inherit;
+                  text-align: center;
+			  	margin-top: 5%;
+			  }
+  
+			  a.button-algorithms:hover {
+			  	background-color: rgb(255,62,0);
+			  }
+            </style>
+		`
+	},
+
+	{
+		title: 'Índice de Dunn',
+		slug: 'Dunn-index-description',
+		html: `
+
+		<a href="algorithms/Dunn-index" class="button-algorithms">Usar Algoritmo</a>
+
+		<style>
+		  a.button-algorithms {
+		  	text-decoration: none;
+		  	background-color: #333;
+		  	padding: 2%;
+		  	color: white;
+		  	display: inherit;
+              text-align: center;
+		  	margin-top: 5%;
+		  }
+		  
+		  a.button-algorithms:hover {
+		  	background-color: rgb(255,62,0);
+		  }
+        </style>
+			
+		`
+	},
+
+	{
+		title: 'Índice de Davies-Bouldin',
+		slug: 'DB-index-description',
+		html: `
+
+		<a href="algorithms/DB-index" class="button-algorithms">Usar Algoritmo</a>
+
+		<style>
+		  a.button-algorithms {
+		  	text-decoration: none;
+		  	background-color: #333;
+		  	padding: 2%;
+		  	color: white;
+		  	display: inherit;
+              text-align: center;
+		  	margin-top: 5%;
+		  }
+		  
+		  a.button-algorithms:hover {
+		  	background-color: rgb(255,62,0);
+		  }
+        </style>
+			
 		`
 	}
 ];
