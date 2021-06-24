@@ -18,10 +18,10 @@
 </style>
 
 <svelte:head>
-	<title>Blog</title>
+	<title>Algoritmos</title>
 </svelte:head>
 
-<h1>Recent posts</h1>
+<h1>Algoritmos</h1>
 
 <ul>
 	{#each posts as post}

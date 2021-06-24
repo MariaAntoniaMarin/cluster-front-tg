@@ -5,8 +5,8 @@
 <style>
 
 	div.header-chart {
-	height: 300px;
-	width: auto;
+	  height: 300px;
+	  width: auto;
 	}
 
 	h1, p {
